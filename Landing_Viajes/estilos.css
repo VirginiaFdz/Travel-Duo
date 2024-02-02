@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
+}
+
+/**********  Seccion de inicio **************/
+
+.inicio {
+    height: 100%;
+}
+
+.inicio .fondo-img {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1)), url(img/banner4.jpg);
+    background-size: cover;
+    height: 95%;
+    z-index: -10;
+}
+
+.inicio .contenido-seccion {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.inicio .contenido-seccion header {
+    padding: 50px 20px;
+    z-index: 100;
+    position: relative;
+}
+
+.inicio .contenido-seccion header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'DynaPuff', system-ui;
+}
+
+.inicio .contenido-seccion header nav a {
+    text-decoration: none;
+    color: #ED4C4C;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.inicio .contenido-seccion header nav a i {
+    font-size: 30px;
+}
+
+.inicio .contenido-seccion header nav a:hover {
+    color: black;
+}
+
+.titulo {
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 10rem;
+    color: #ED4C4C;
+    position: relative;
+}
+
+/**********  Seccion de destinos **************/
+
+.destinos {
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+    background: #fff;
+    margin-top: 100px;
+    z-index: 100;
+}
+
+h2 {
+    color: #E87A4B;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    z-index: 100;
+}
+
+.destinos>p {
+    color: #666;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.destinos .fila {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+
+}
+
+.destinos .fila .col {
+    width: 40%;
+}
+
+.destinos .fila i {
+    font-size: 35px;
+    color: #E87A4B;
+    display: inline-block;
+}
+
+.destinos .fila p {
+    color: #666;
+    font-size: 18px;
+}
+
+/******** Seccion sobre nosotros *******/
+
+.nosotros {
+    position: relative;
+}
+
+.nosotros img {
+    width: 30%;
+    border-radius: 30px;
+    margin: 95px 0px 70px 150px;
+}
+
+.nosotros .texto {
+    background: rgba(255, 255, 255, .7);
+    max-width: 600px;
+    border: 5px solid #EBC45E;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+}
+
+.nosotros .texto p {
+    margin: 10px 0;
+    color: #666;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.nosotros .texto button {
+    background-color: #EBC45E;
+    border: none;
+    border: 2px solid #334755;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #334755;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/********* Seccion de lugares ********/
+
+.lugares .contenido-seccion {
+    position: relative;
+    width: 100%;
+    bottom: 150px;
+}
+
+.lugares .contenido-seccion img {
+    width: 100%;
+}
+
+.lugares .contenido-seccion .info {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    max-width: 900px;
+    left: 80%;
+    transform: translateX(-50%);
+    margin-top: 140px;
+    padding: 10px;
+    background: rgba(255, 255, 255, .6);
+    border: 2px solid #EBC45E;
+}
+
+h3 {
+    font-size: 35px;
+    color: #E87A4B;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.lugares .contenido-seccion .info p {
+    color: #334755;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.lugares .contenido-seccion button {
+    background-color: #EBC45E;
+    border: none;
+    border: 2px solid #334755;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #334755;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/********** Seccion del Blog ***********/
+
+.blog {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.blog .fila {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.blog .fila img {
+    max-width: 160px;
+}
+
+.blog .fila .col {
+    margin: 10px 40px;
+    border: 2px solid #EBC45E;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.blog .fila .col .nombre {
+    color: #334755;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.blog .fila .col h4 {
+    border: 2px solid #E6D21A;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 5px 15px;
+}
+
+.blog .fila .col h4 a {
+    text-decoration: none;
+    color: #000;
+}
+
+hr {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 85%;
+}
+
+/******* Seccion de suscribirse ********/
+
+.subscripcion {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.subscripcion input {
+    display: inline-block;
+    margin-top: 20px;
+    width: 400px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #334755;
+}
+
+/********** Seccion del footer ************/
+
+.footer {
+    background: url(img/perroPlaya.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.footer .redes {
+    text-align: center;
+}
+
+.footer .redes a {
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    margin: 0 30px;
+    color: #ED4C4C;
+}
